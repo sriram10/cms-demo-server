@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_banner_single_banners",
+  "info": {
+    "displayName": "SingleBanner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": false
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}
