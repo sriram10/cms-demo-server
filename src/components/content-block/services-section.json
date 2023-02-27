@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_content_block_services_sections",
+  "info": {
+    "displayName": "ServicesSection"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "TitleSecondary": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.icon-card"
+    },
+    "LinkText": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

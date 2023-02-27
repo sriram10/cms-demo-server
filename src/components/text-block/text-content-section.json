@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_text_block_text_content_sections",
+  "info": {
+    "displayName": "TextContentSection"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "TitleSecondary": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "LinkText": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
